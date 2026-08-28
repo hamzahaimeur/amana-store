@@ -19,7 +19,7 @@ const values = [
     icon: HandHeart,
     title: 'Fair to everyone',
     blurb:
-      'Pricing and supplier relationships should be based on the store owner's actual commercial arrangements.',
+      "Pricing and supplier relationships should be based on the store owner's actual commercial arrangements.",
   },
   {
     icon: Sparkles,
