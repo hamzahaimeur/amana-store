@@ -40,7 +40,7 @@ export function CartHeader() {
           </h1>
           <p className="max-w-xl text-sm leading-relaxed text-muted-foreground text-pretty sm:text-base">
             {itemCount === 0
-              ? 'Your cart is waiting — every order ships plastic-free with a 30-day return window.'
+              ? 'Your cart is waiting — shipping and return details shown here are demo policies.'
               : `${itemCount} ${itemCount === 1 ? 'item' : 'items'} ready to go. Shipping and tax are estimated until checkout.`}
           </p>
         </Reveal>

@@ -83,7 +83,7 @@ export function SiteFooter() {
                 Terms of Service
               </Link>
             </li>
-            <li className="text-xs font-medium text-primary">100% Halal Verified</li>
+            <li className="text-xs font-medium text-primary">Modest &amp; family-friendly selection</li>
           </ul>
         </div>
       </div>

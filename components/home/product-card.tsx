@@ -3,7 +3,6 @@
 import { BedDouble, Check, Coffee, Shirt, ShoppingBag, Wallet, Watch, Wind } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
-import { StarRating } from '@/components/star-rating'
 import { Button } from '@/components/ui/button'
 import type { Product, ProductIcon } from '@/lib/home-data'
 
@@ -53,13 +52,6 @@ export function ProductCard({ product }: { product: Product }) {
         <h3 className="text-base font-semibold tracking-tight text-pretty">
           {product.name}
         </h3>
-
-        <div className="flex items-center gap-2">
-          <StarRating rating={product.rating} />
-          <span className="text-xs text-muted-foreground tabular-nums">
-            {product.rating.toFixed(1)} ({product.reviews})
-          </span>
-        </div>
 
         <div className="mt-auto flex items-center justify-between gap-3 pt-2">
           <span className="text-lg font-semibold tracking-tight tabular-nums">

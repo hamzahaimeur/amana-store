@@ -15,7 +15,7 @@ import { Button } from '@/components/ui/button'
 
 const proofPoints = [
   { value: '12k+', label: 'Orders delivered' },
-  { value: '4.8/5', label: 'Average rating' },
+  { value: '16', label: 'Demo products' },
   { value: '48h', label: 'Dispatch window' },
 ]
 
@@ -37,7 +37,7 @@ export function Hero() {
           <Reveal immediate>
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1.5 text-xs font-medium text-muted-foreground">
               <BadgeCheck className="size-3.5 text-primary" strokeWidth={2} />
-              Halal-verified sourcing on every order
+              Modest, family-friendly selection
             </span>
           </Reveal>
 
@@ -46,15 +46,15 @@ export function Hero() {
               id="hero-heading"
               className="text-4xl font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl"
             >
-              Quality You Can Trust
+              Thoughtful Everyday Essentials
             </h1>
           </Reveal>
 
           <Reveal immediate delay={0.16}>
             <p className="max-w-lg text-base leading-relaxed text-muted-foreground text-pretty sm:text-lg">
               Amana Store brings together clothing, home goods and accessories chosen
-              for how they are made and who made them. Fewer products, checked
-              properly, priced fairly.
+              for their intended use and presented with clear, straightforward information. This
+              portfolio storefront uses illustrative catalog content.
             </p>
           </Reveal>
 
@@ -136,13 +136,13 @@ export function Hero() {
               <RevealItem className="flex items-center gap-3 rounded-2xl border border-border/70 bg-card px-4 py-3.5">
                 <Truck className="size-5 shrink-0 text-primary" strokeWidth={1.5} />
                 <span className="text-sm leading-snug text-foreground">
-                  Free delivery over $60, dispatched within two days
+                  Shipping details are shown at checkout for this demo storefront
                 </span>
               </RevealItem>
               <RevealItem className="flex items-center gap-3 rounded-2xl border border-border/70 bg-card px-4 py-3.5">
                 <Leaf className="size-5 shrink-0 text-primary" strokeWidth={1.5} />
                 <span className="text-sm leading-snug text-foreground">
-                  Plastic-free packing, sourcing notes on every product
+                  Product information is presented as illustrative demo content
                 </span>
               </RevealItem>
             </RevealGroup>

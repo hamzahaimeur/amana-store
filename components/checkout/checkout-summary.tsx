@@ -6,9 +6,9 @@ import { useCart } from '@/components/cart/cart-provider'
 import { formatCurrency } from '@/lib/format'
 
 const trustBadges = [
-  { icon: Lock, label: 'Secure Checkout' },
-  { icon: RotateCcw, label: 'Easy Returns' },
-  { icon: ShieldCheck, label: 'Buyer Protection' },
+  { icon: Lock, label: 'Demo checkout' },
+  { icon: RotateCcw, label: 'Demo return policy' },
+  { icon: ShieldCheck, label: 'Demo storefront' },
 ]
 
 export function CheckoutSummary() {

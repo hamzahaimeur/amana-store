@@ -67,8 +67,6 @@ export function ProductsBrowser() {
     const sorted = [...filtered]
     if (sort === 'price-asc') sorted.sort((a, b) => a.price - b.price)
     else if (sort === 'price-desc') sorted.sort((a, b) => b.price - a.price)
-    else if (sort === 'rating')
-      sorted.sort((a, b) => b.rating - a.rating || b.reviews - a.reviews)
     else sorted.sort((a, b) => b.addedOrder - a.addedOrder)
 
     return sorted

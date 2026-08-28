@@ -47,8 +47,8 @@ export function CheckoutHeader() {
             Checkout
           </h1>
           <p className="max-w-xl text-sm leading-relaxed text-muted-foreground text-pretty sm:text-base">
-            Enter your shipping and payment details to complete your order. Every
-            order ships plastic-free with a 30-day return window.
+            Enter your details to preview the checkout flow. Payment and fulfillment are not connected
+            to a live store in this demo.
           </p>
         </Reveal>
       </div>

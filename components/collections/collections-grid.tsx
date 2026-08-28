@@ -15,15 +15,15 @@ const collectionDetails: Record<
   'Home & Living': {
     icon: House,
     blurb:
-      'Hand-finished ceramics, textiles and small comforts for the home.',
+      'Ceramics, textiles and practical home items in the demo catalog.',
   },
   Accessories: {
     icon: Watch,
-    blurb: 'Leather goods and quiet details made to outlast a season.',
+    blurb: 'Leather goods and practical accessories in the demo catalog.',
   },
   'New Arrivals': {
     icon: Sparkles,
-    blurb: 'The latest pieces added to the Amana collection this month.',
+    blurb: 'Items presented as recent additions in this demo catalog.',
   },
 }
 

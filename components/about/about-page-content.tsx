@@ -7,25 +7,25 @@ const values = [
     icon: ShieldCheck,
     title: 'Honest sourcing',
     blurb:
-      'Every product page lists exactly where and how the item was made — no vague claims.',
+      'Product pages are designed to present clear information; supplier and manufacturing details must be configured with verified data before launch.',
   },
   {
     icon: Leaf,
     title: 'Kind to the planet',
     blurb:
-      'Plastic-free packaging and a preference for materials that hold up for years, not seasons.',
+      'The storefront is designed to support straightforward packaging and material information without making unsupported sustainability claims.',
   },
   {
     icon: HandHeart,
     title: 'Fair to everyone',
     blurb:
-      'Fair pricing for customers and fair partnerships with the small workshops we source from.',
+      'Pricing and supplier relationships should be based on the store owner's actual commercial arrangements.',
   },
   {
     icon: Sparkles,
     title: 'Considered range',
     blurb:
-      'We would rather stock fifty pieces we believe in than five hundred we do not.',
+      'The catalog is intentionally presented as a focused demo collection.',
   },
 ]
 
@@ -46,7 +46,7 @@ export function AboutPageContent() {
             a small, considered range so every product earns its place.
           </p>
           <p>
-            From plastic-free packaging to a 30-day no-questions return window,
+            From product presentation to return information,
             we try to do right by our customers and the world they live in.
             Thank you for shopping with us.
           </p>

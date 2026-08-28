@@ -55,11 +55,11 @@ export function CheckoutPageContent() {
           </span>
           <div className="flex flex-col gap-2">
             <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-              Order Confirmed
+              Demo Order Created
             </h2>
             <p className="text-sm leading-relaxed text-muted-foreground sm:text-base">
-              Thank you for your purchase. A confirmation email is on its way with
-              your order details and tracking information.
+              This is a frontend checkout demo. No real payment is processed and no
+              confirmation email or shipment is created from this page.
             </p>
           </div>
           <div className="rounded-xl border border-border bg-card px-6 py-4">

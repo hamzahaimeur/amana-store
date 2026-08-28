@@ -11,22 +11,22 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'hello@amanastore.com',
+    value: 'Contact details not configured',
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+1 (555) 012-3456',
+    value: 'Contact details not configured',
   },
   {
     icon: MapPin,
     label: 'Address',
-    value: '128 Evergreen Ave, Suite 4, Portland, OR 97204',
+    value: 'Demo storefront — business address not configured',
   },
   {
     icon: Clock,
     label: 'Business hours',
-    value: 'Mon–Fri, 9:00 AM – 6:00 PM PST',
+    value: 'Business hours not configured',
   },
 ]
 
@@ -46,7 +46,7 @@ export function ContactPageContent() {
             Send us a message
           </h2>
           <p className="mt-1.5 text-sm text-muted-foreground">
-            We usually reply within one business day.
+            This contact form is a frontend demo and is not connected to a live support inbox.
           </p>
 
           <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-4">

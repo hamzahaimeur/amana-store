@@ -14,9 +14,9 @@ import { formatCurrency } from '@/lib/format'
 const EASE = [0.22, 1, 0.36, 1] as const
 
 const trustBadges = [
-  { icon: Lock, label: 'Secure Checkout' },
+  { icon: Lock, label: 'Demo checkout' },
   { icon: RotateCcw, label: 'Easy Returns' },
-  { icon: ShieldCheck, label: 'Buyer Protection' },
+  { icon: ShieldCheck, label: 'Demo storefront' },
 ]
 
 export function OrderSummary() {
@@ -195,7 +195,7 @@ export function OrderSummary() {
                 transition={{ duration: 0.24, ease: EASE }}
                 className="text-xs text-muted-foreground"
               >
-                Try AMANA10 for 10% off your first order.
+                Promo codes are demo-only until a real promotion system is connected.
               </motion.p>
             )}
           </AnimatePresence>

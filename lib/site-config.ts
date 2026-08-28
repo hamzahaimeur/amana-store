@@ -5,12 +5,12 @@ export type NavLink = {
 
 export const siteConfig = {
   name: 'Amana Store',
-  tagline: 'Trusted essentials for the modern home',
+  tagline: 'A thoughtful demo store for everyday essentials',
   description:
-    'Amana Store offers thoughtfully sourced halal, family-friendly clothing, home goods and accessories — chosen for quality, modesty and everyday trust.',
-  email: 'salam@amanastore.com',
-  phone: '+1 (555) 018-2245',
-  address: '24 Cedar Court, Suite 300, Springfield',
+    'Amana Store is a portfolio/demo storefront concept featuring modest, family-friendly clothing, home goods and accessories. Product and business details shown here are illustrative.',
+  email: 'Contact details are not configured',
+  phone: 'Contact details are not configured',
+  address: 'Demo storefront — business address not configured',
 } as const
 
 export const mainNav: NavLink[] = [
@@ -25,10 +25,10 @@ export const footerNav: { title: string; links: NavLink[] }[] = [
   {
     title: 'Shop',
     links: [
-      { label: 'Clothing', href: '/shop/clothing' },
-      { label: 'Home Goods', href: '/shop/home' },
-      { label: 'Accessories', href: '/shop/accessories' },
-      { label: 'New Arrivals', href: '/shop/new' },
+      { label: 'Clothing', href: '/products?category=Men%27s%20Clothing' },
+      { label: 'Home Goods', href: '/products?category=Home%20%26%20Living' },
+      { label: 'Accessories', href: '/products?category=Accessories' },
+      { label: 'New Arrivals', href: '/products?category=New%20Arrivals' },
     ],
   },
   {
